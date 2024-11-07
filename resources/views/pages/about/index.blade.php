@@ -1,4 +1,4 @@
 @extends('index')
 @section('body')
-    asdhfskdhgdshgkjdsfhgkjdfshjks
+    asdhfskdhgdshgkjdsfhgkjdfshjkssdfsfdsfsd
 @endsection
