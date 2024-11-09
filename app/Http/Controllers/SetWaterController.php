@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ContactController extends Controller
+class SetWaterController extends Controller
 {
-    // Contact
+    //
     public function main(){
-        return view('pages.contact.main');
+        return view('pages.Set water.main');
     }
 }

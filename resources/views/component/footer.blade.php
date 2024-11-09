@@ -146,18 +146,18 @@
                         </h4>
                         <ul class="list-menu hidden-mobile">
 
-                            <li><a href="chinh-sach-thanh-toan.html" title="Chính sách thanh toán">Chính sách
+                            <li><a href="{{route('abate')}}" title="Chính sách thanh toán">Chính sách
                                     thanh
                                     toán</a></li>
 
-                            <li><a href="chinh-sach-bao-hanh.html" title="Chính sách bảo hành">Chính sách bảo
+                            <li><a href="{{route('warranty')}}" title="Chính sách bảo hành">Chính sách bảo
                                     hành</a></li>
 
-                            <li><a href="chinh-sach-bao-mat.html" title="Chính sách bảo mật">Chính sách bảo
+                            <li><a href="{{route('confidentiality')}}" title="Chính sách bảo mật">Chính sách bảo
                                     mật</a>
                             </li>
 
-                            <li><a href="chinh-sach-giao-hang.html" title="Chính sách giao hàng">Chính sách giao
+                            <li><a href="{{route('delivery')}}" title="Chính sách giao hàng">Chính sách giao
                                     hàng</a></li>
 
                         </ul>

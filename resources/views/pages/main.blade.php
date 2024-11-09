@@ -85,9 +85,6 @@
     });
 </script>
 
-
-
-
 <section class="section_ingredient">
     <div class="container">
         <div class="title_ingredient">

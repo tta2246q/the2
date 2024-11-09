@@ -9,7 +9,7 @@
     <title>Bean Water </title>
     <meta name="keywords" content="Cập nhật sau" />
 
-    <link rel="icon" href="" type="image/x-icon" />
+    <link rel="icon" href="http://bizweb.dktcdn.net/100/521/251/themes/960910/assets/favicon.png" type="image/x-icon" />
     <script src="assets/js/jquery.js" type="text/javascript"></script>
     <script src="assets/js/swiper.js" type="text/javascript"></script>
     <script src="assets/js/lazy.js" type="text/javascript"></script>
@@ -20,6 +20,9 @@
     <link href="assets/css/index.scss.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/swiper.scss.css"rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/quickviews_popup_cart.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/breadcrumb_style.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/paginate.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/style_page.scss.css" rel="stylesheet" type="text/css" media="all" />
 
     <script>
         $(document).ready(function($) {
@@ -35,16 +38,15 @@
         }
         window.awe_lazyloadImage = awe_lazyloadImage;
     </script>
+    
     <link href="assets/css/appcombo.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 
 <body>
+    
     @include('component.header')
-
-
     @yield('body')
-@include('component.footer')
-
+    @include('component.footer')
 
     <a href="#" class="backtop" title="Lên đầu trang">
         <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-up" role="img"

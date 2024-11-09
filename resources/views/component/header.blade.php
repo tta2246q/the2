@@ -1,3 +1,5 @@
+<div class="opacity_menu"></div>
+<div class="tbg"></div>
 <header class="header header-index">
     <div class="container" style="position: relative;">
         <div class="row align-items-center">
@@ -26,7 +28,7 @@
 
 
                                 <li class="nav-item active  ">
-                                    <a class="a-img a-index" href="index.html" title="Trang chủ">
+                                    <a class="a-img a-index" href="route{{'/'}}" title="Trang chủ">
                                         Trang chủ
                                     </a>
                                 </li>
@@ -119,8 +121,6 @@
 
                                                         </ul>
                                                     </li>
-
-
 
                                                     <li class="level1 parent item fix-navs"
                                                         data-title="Nước bình vòi" data-link="/nuoc-binh-voi">
@@ -309,13 +309,13 @@
                                 </li>
 
                                 <li class="nav-item  ">
-                                    <a class="a-img a-index" href="dat-nuoc-ngay.html" title="Đặt nước">
+                                    <a class="a-img a-index" href="{{route('main-setwater')}}" title="Đặt nước">
                                         Đặt nước
                                     </a>
                                 </li>
 
                                 <li class="nav-item  ">
-                                    <a class="a-img a-index" href="cau-hoi-thuong-gap.html"
+                                    <a class="a-img a-index" href="{{route('questions')}}"
                                         title="Câu hỏi thường gặp">
                                         Câu hỏi thường gặp
                                     </a>
@@ -328,7 +328,7 @@
                                 </li>
 
                                 <li class="nav-item  ">
-                                    <a class="a-img a-index" href="{{route('index')}}" title="Liên hệ">
+                                    <a class="a-img a-index" href="{{route('main-contact')}}" title="Liên hệ">
                                         Liên hệ
                                     </a>
                                 </li>
