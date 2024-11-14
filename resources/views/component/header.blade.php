@@ -36,7 +36,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item   has-mega  hover-left">
-                                    <a class="a-img caret-down a-index" href="tat-ca-san-pham.html"
+                                    <a class="a-img caret-down a-index" href="{{route('index-product')}}"
                                         title="Sản phẩm">
                                         Sản phẩm
                                     </a>
@@ -303,13 +303,13 @@
                                 </li>
 
                                 <li class="nav-item  ">
-                                    <a class="a-img a-index" href="tinh-luong-nuoc.html" title="Tính lượng nước">
+                                    <a class="a-img a-index" href="{{route('index-calculate')}}" title="Tính lượng nước">
                                         Tính lượng nước
                                     </a>
                                 </li>
 
                                 <li class="nav-item  ">
-                                    <a class="a-img a-index" href="dat-nuoc-ngay.html" title="Đặt nước">
+                                    <a class="a-img a-index" href="{{route('index-news')}}" title="Đặt nước">
                                         Đặt nước
                                     </a>
                                 </li>

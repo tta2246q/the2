@@ -20,6 +20,13 @@
     <link href="assets/css/index.scss.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/swiper.scss.css"rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/quickviews_popup_cart.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/breadcrumb_style.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/paginate.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/style_page.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/blog_article_style.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/calu_style.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/collection_style.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/jquery-ui-min.scss.css" rel="stylesheet" type="text/css" media="all" />
 
     <script>
         $(document).ready(function($) {
