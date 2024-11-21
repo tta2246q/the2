@@ -189,8 +189,8 @@
                         });
                     </script>
                     <div class="clearfix"></div>
-                    <div class="filter-content">
-                        <div class="aside-boloc">
+                    <div class="filter-content aside-item collection-category aside-cate">
+                        <div class="aside-boloc title-module-cate">
                             <h2>Bộ lọc <span>sản phẩm</span></h2>
                         </div>
                         <div class="filter-container">
@@ -222,7 +222,7 @@
 
                             <aside class="aside-item filter-price">
                                 <div class="aside-title">
-                                    <h2><span>Chọn mức giá</span></h2>
+                                    <h2 class="title-filter title-head margin-top-0"><span>Chọn mức giá</span></h2>
                                 </div>
                                 <div class="aside-content filter-group content_price">
                                     <ul>
@@ -1603,3 +1603,4 @@
         </div>
     </div>
 @endsection
+
